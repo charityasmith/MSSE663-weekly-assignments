@@ -1,1 +1,27 @@
+// working with arrays
+var fruits = ["apples","oranges","bananas"];
 
+var stuff = ["thing",0,false];
+
+var newValues = fruits.map((value) => {
+    return value.toUpperCase();
+});
+
+var newValues = fruits.filter((value) => {
+    return value == "apples";
+});
+
+fruits.forEach((value) => {});
+
+for(var i = 0; i < fruits.length; i++){}
+
+// defining an object
+let instructor = {
+    name: 'Morgan',
+    traits: ['funny', 'smart']
+};
+
+function Instructor(name, traits){
+    this.name = name;
+    this.traits = traits;
+}
